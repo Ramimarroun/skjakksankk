@@ -45,10 +45,10 @@
     
     </header>
      <div class="contact-body">
-        <div class="contact-form">
+        <div class="contact-form" >
             <p>En podcast som tar deg med på innsiden av sjakk miljøet.</p>
             <p>Kontakt Oss</p>
-            <form id="contact-form" action="">
+            <form id="contact-form">
                 <label for="navn" class="invaildTekst" >Navn <span>*</span></label>
                 <input  type="text" id="navn" onchange="validateName(this.value)" name="navn" >
                 <label for="email" class="invaild-email">E-post <span>*</span></label>
@@ -60,7 +60,11 @@
         </div>
      </div>
      <div class="model-overlay">
-   
+      <div class="container">
+        <p>Takk, Vi kontakter deg!</p>
+        <button type="button" class="closeBtn">Lukk</button>
+      </div>
+      
 
      </div>
 
