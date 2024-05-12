@@ -1033,6 +1033,7 @@ footer .black .text{
     flex-direction: column;
     text-transform: uppercase;
     width: 500px;
+    margin-left: 20px;
 }
 footer .icons img{
     width: 50px;
@@ -1114,6 +1115,8 @@ footer .last{
     }
     footer .black .text p{
         font-size: 1rem;
+        margin-left: 0;
+
      }
      footer .last{
         margin-left: 0;
