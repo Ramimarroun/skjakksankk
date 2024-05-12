@@ -42,23 +42,24 @@
         </ul>
       </div>
     </nav>
+    <div class="contact-body">
+      <div class="contact-form" >
+          <p>En podcast som tar deg med på innsiden av sjakk miljøet.</p>
+          <p>Kontakt Oss</p>
+          <form id="contact-form">
+              <label for="navn" class="invaildTekst" >Navn <span>*</span></label>
+              <input  type="text" id="navn" onchange="validateName(this.value)" name="navn" >
+              <label for="email" class="invaild-email">E-post <span>*</span></label>
+              <input type="email" id="email" name="email"onchange="validateEmail(this.value)" required class="user-input">
+              <label for="message" class="invaild-message">Melding <span>*</span></label>
+              <textarea id="message" name="message" onchange="validateMessage(this.value)"></textarea>
+              <button class="submit-btn" type="submit">Send</button>
+          </form>
+      </div>
+   </div>
     
     </header>
-     <div class="contact-body">
-        <div class="contact-form" >
-            <p>En podcast som tar deg med på innsiden av sjakk miljøet.</p>
-            <p>Kontakt Oss</p>
-            <form id="contact-form">
-                <label for="navn" class="invaildTekst" >Navn <span>*</span></label>
-                <input  type="text" id="navn" onchange="validateName(this.value)" name="navn" >
-                <label for="email" class="invaild-email">E-post <span>*</span></label>
-                <input type="email" id="email" name="email"onchange="validateEmail(this.value)" required class="user-input">
-                <label for="message" class="invaild-message">Melding <span>*</span></label>
-                <textarea id="message" name="message" onchange="validateMessage(this.value)"></textarea>
-                <button class="submit-btn" type="submit">Send</button>
-            </form>
-        </div>
-     </div>
+    
      <div class="model-overlay">
       <div class="container">
         <p>Takk, Vi kontakter deg!</p>
